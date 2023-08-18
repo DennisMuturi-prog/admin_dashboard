@@ -129,7 +129,7 @@ button{
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap: 5px;
 }
-.projects div{
+.projects>div{
     background-color:#f1f5f9;
     border-radius: 7px;
     padding-left: 20px;
@@ -143,6 +143,12 @@ button{
     min-width: 35ch;
     max-width: 75ch;
     font-size: 15px;
+}
+.picons{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    gap: 5px;
 }
 .announcements p{
     font-size: 12px;
