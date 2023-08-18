@@ -114,6 +114,7 @@ button{
 .maincontent{
     display:grid;
     grid-template-columns:2.5fr 1fr;
+    column-gap: 5px;
 }
 .projects{
     display: grid;
@@ -136,6 +137,27 @@ button{
 }
 .announcements p{
     font-size: 12px;
+    border-bottom: 1px solid lightgrey;
 
 }
-
+.announcements>div:nth-child(3)>p{
+    border-bottom: none;
+}
+.announcements{
+    background-color:#f1f5f9;
+    border-radius: 4px;
+    padding:2px;
+}
+.trending{
+    background-color: #f1f5f9;
+    border-radius: 4px;
+    padding: 5px;
+}
+.trending div{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.projects p,.announcements p,.trending p{
+    color:#334155;
+}
